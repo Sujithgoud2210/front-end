@@ -131,56 +131,66 @@ button{
 ========================= */
 
 .hero{
-    background:#e3e6f3;
-    min-height:90vh;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 80px;
+    width: 100%;
+    min-height: 90vh;
+
+    /* Background Image */
+    background-image: url("../images/hero4.png");
+    background-size: cover;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+
+    background-color: #e3e6f3;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 80px;
 }
 
-.hero-text{
-    max-width:600px;
-}
-
+/* Hero Text */
 .hero-text h4{
-    padding-bottom:15px;
-    color:#fdfdfd;
-    font-size:34px;
-    font-weight:700;
-}
-
-.hero-text h1{
-    color:#222;
-    font-weight:800;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .hero-text h2{
-    color:#088178;
-    font-weight:800;
+    font-size: 55px;
+    line-height: 64px;
+    color: #222;
+}
+
+.hero-text h3{
+    font-size: 60px;
+    line-height: 64px;
+    color: #088178;
 }
 
 .hero-text p{
-    color:#465b52;
-    font-size:16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
 }
 
+/* Shop Button */
 .hero-text .btn{
-    display:inline-block;
-    background-image:url("../images/button.png");
-    background-repeat:no-repeat;
-    background-color:transparent;
-    color:#088178;
-    border:none;
-    padding:14px 80px 14px 65px;
-    font-weight:700;
-    font-size:15px;
+    background-image: url("../images/button.png");
+    background-color: transparent;
+    color: #088178;
+
+    border: 0;
+    padding: 14px 80px 14px 65px;
+
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 15px;
+
+    text-decoration: none;
+    display: inline-block;
 }
 
-.hero-image img{
-    width:650px;
-    max-width:100%;
-}
 
 /* =========================
    FEATURES
